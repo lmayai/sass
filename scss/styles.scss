@@ -1,5 +1,6 @@
 //Libraries, variables
 @import "lib/variables";
+@import "lib/mixins";
 
 //Base elements
 @import "tables"; /*No es necesaria la extension para importar*/
@@ -9,5 +10,8 @@
 //Components
 @import "components/grids";
   
+//Layouts
+@import "layout/layout";
+
 //Utilites (Always at the end)
-@import "components/utils" 
+@import "components/utils"; 

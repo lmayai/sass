@@ -1,3 +1,29 @@
 /*****************************************\
     $BUTTONS
 \*******************************************/
+/* BEM
+    B: bloque
+    E:
+    M:
+*/
+
+.btn{
+    display: inline-block;
+    color: $button-color;
+    background: $button-background-color;
+    line-height: 2.5;
+    border-radius: $border-radius;
+    font-size: $button-font-size;
+
+    .btn__icon { /*Element*/ 
+        font-size: .6em;   
+    }
+    &__icon{
+        font-size: .6em;   
+    }
+    
+    .btn--info { /*Modificador*/
+        background-color: $color-info;
+    }
+}
+
