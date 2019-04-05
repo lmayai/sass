@@ -1,0 +1,32 @@
+/*****************************************\
+    $COLORS
+\*******************************************/
+
+/**
+* Brandign colors
+*/
+
+$color-brand: #ea83ee;
+$color-secundary: rgb(219,216,121); 
+
+/*Paleta de grises*/
+$color-black: rbg(0,0,0);
+$color-darkgrey: #4d4d4d;
+$color-grey: #737373;
+$color-lightgrey : #bfbfbf;
+$color-white: rgb(255,255,255);
+
+/*Colores de texturas*/
+$color-alert: rgb(252,228,207);
+$color-error: rgb(219,79,73);
+$color-warning: yellow ;
+$color-success: rgb(91,183,91);
+$color-info: rgb(66,104,221);
+
+/*Tipografias*/
+$base-font: 'Qiicksand',Verdana,sans-serif;
+$base-font-size: 16px;
+
+/*Buttons*/
+$button-color: $color-white;
+$button-background-color: $color-brand;

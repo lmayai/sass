@@ -1,0 +1,13 @@
+//Libraries, variables
+@import "lib/variables";
+
+//Base elements
+@import "tables"; /*No es necesaria la extension para importar*/
+@import "base/buttons";
+@import "base/typografhy";
+
+//Components
+@import "components/grids";
+  
+//Utilites (Always at the end)
+@import "components/utils" 
