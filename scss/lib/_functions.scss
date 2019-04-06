@@ -21,3 +21,15 @@ $zindex-other: (
 	zindex-overlay:160,
 	zindex-tooltip:180
 );
+
+//Listas EACH
+
+$font-weights:normal bold italic;
+// @each $varfont in (normal,bold,italic){
+@each $varfont in ($font-weights){
+    .#{$font} {
+        font-weight: $font;
+    }
+}
+
+
