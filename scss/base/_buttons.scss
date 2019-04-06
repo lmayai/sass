@@ -7,7 +7,7 @@
     M:
 */
 
-.btn{
+%btn{
     display: inline-block;
     color: $button-color;
     background: $button-background-color;
@@ -27,3 +27,17 @@
     }
 }
 
+.btn { /*Plazeholder*/
+    @extend %btn;
+}
+
+.btn--info{
+    @extend %btn;
+    color: $color-info;
+    &:hover{
+        color: $color-info;
+    }
+    &:visited{
+        color: $color-info;
+    }
+}

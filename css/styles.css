@@ -25,7 +25,7 @@ table tr:hover {
     E:
     M:
 */
-.btn {
+.btn, .btn--info {
   display: inline-block;
   color: white;
   background: #ea83ee;
@@ -34,18 +34,30 @@ table tr:hover {
   font-size: 24px;
 }
 
-.btn .btn__icon {
+.btn .btn__icon, .btn--info .btn__icon {
   /*Element*/
   font-size: .6em;
 }
 
-.btn__icon {
-  font-size: .6em;
-}
-
-.btn .btn--info {
+.btn .btn--info, .btn--info .btn--info {
   /*Modificador*/
   background-color: #4268dd;
+}
+
+.btn {
+  /*Plazeholder*/
+}
+
+.btn--info {
+  color: #4268dd;
+}
+
+.btn--info:hover {
+  color: #4268dd;
+}
+
+.btn--info:visited {
+  color: #4268dd;
 }
 
 /*****************************************\
