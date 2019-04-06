@@ -10,15 +10,18 @@ $color-brand: #ea83ee;
 $color-secundary: rgb(219,216,121); 
 
 /*Paleta de grises*/
-$color-black: rbg(0,0,0);
-$color-darkgrey: #4d4d4d;
 $color-grey: #737373;
-$color-lightgrey : #bfbfbf;
+$color-black: rbg(0,0,0);
+// $color-darkgrey: #4d4d4d;
+$color-darkgrey: darken($color-grey,25%);
+// $color-lightgrey : #bfbfbf;
+$color-lightgrey :lighten($color-grey,25%);
 $color-white: rgb(255,255,255);
 
 /*Colores de texturas*/
 $color-alert: rgb(252,228,207);
 $color-error: rgb(219,79,73);
+$color-invert: invert($color-error) ;
 $color-warning: yellow ;
 $color-success: rgb(91,183,91);
 $color-info: rgb(66,104,221);

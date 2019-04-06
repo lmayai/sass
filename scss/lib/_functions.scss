@@ -1,0 +1,23 @@
+$fs: (
+    big:24px,
+    medium:16px,
+    small:12px,
+    x-small:8px
+);
+
+$zindex: (
+    top:50,
+    under-top:40,
+    middle:30,
+    over-bottom:20,
+    bottom:10,
+    initial:0
+)
+
+$zindex-other: ( 
+	zindex-dropdown: 100, 
+	zindex-sticky: 120, 
+	zindex-modal: 140, 
+	zindex-overlay:160,
+	zindex-tooltip:180
+);
