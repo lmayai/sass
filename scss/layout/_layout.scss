@@ -4,6 +4,15 @@ section{
     padding: $padding;
 }
 
-body{
-    @include max-width;
+.container{
+    @include max-width(1200px);
+}
+
+.max-width--huge{
+    @include max-width(1200px);
+}
+
+header{
+    background-color: $color-darkgrey;
+    color: $color-white;
 }
