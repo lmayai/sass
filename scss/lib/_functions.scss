@@ -6,13 +6,13 @@ $fs: (
 );
 
 $zindex: (
-    top:50,
-    under-top:40,
-    middle:30,
-    over-bottom:20,
-    bottom:10,
+    top:10,
+    under-top:8,
+    middle:6,
+    over-bottom:4,
+    bottom:2,b
     initial:0
-)
+);
 
 $zindex-other: ( 
 	zindex-dropdown: 100, 
