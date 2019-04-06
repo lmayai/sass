@@ -1,10 +1,15 @@
 section{
     @include max-width;
-    background-color: $color-lightgrey;
+    background-color: red;
+    @include respond-to(800px){
+        background-color: blue;
+        // Todo esto será el content
+    }
+    //background-color: $color-lightgrey;
     padding: $padding;
 }
 
-.container{
+.container{ 
     @include max-width(1200px);
 }
 
