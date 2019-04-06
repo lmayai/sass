@@ -12,6 +12,38 @@
 /*****************************************\
     $MIXINS
 \*******************************************/
+.normal {
+  font-weight: normal;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-weight: italic;
+}
+
+.class-1:before {
+  content: 1;
+}
+
+.class-2:before {
+  content: 2;
+}
+
+.class-3:before {
+  content: 3;
+}
+
+.class-4:before {
+  content: 4;
+}
+
+p {
+  color: white;
+}
+
 table tr:hover {
   background-color: #dbd879;
 }

@@ -26,10 +26,28 @@ $zindex-other: (
 
 $font-weights:normal bold italic;
 // @each $varfont in (normal,bold,italic){
-@each $varfont in ($font-weights){
+@each $font in ($font-weights){
     .#{$font} {
         font-weight: $font;
     }
 }
 
+//$banderas: mexico colombia argentina peru chile;
 
+@for $i from 1 to 5 {
+    .class-#{$i} {
+        &:before{
+            content:#{$i};
+        }
+    }
+}
+
+$back-color: black;
+@if $back-color == black{
+    p{
+        color:white;
+    }
+}
+@else {
+
+}
